@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  background: rgba(31, 31, 31, 1);
+}
+nav {
+  padding: 24px 162px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+      justify-content: center;
+
+  justify-content: space-between;
+}
+.nav__list-title {
+  display: flex;
+  gap: 54px;
+  justify-content: center;
+  & li {
+    list-style: none;
+  }
+  & li a {
+text-decoration: none;
+font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+
+color: rgba(255, 255, 255, 1);
+  }
+}
+
