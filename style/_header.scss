@@ -1,17 +1,21 @@
 header {
   display: flex;
   justify-content: center;
+  
 }
 .container {
   width: 100%;
-  background: rgba(31, 31, 31, 1);
+  margin: 0 auto;
+  width: 1920px;
+opacity: 1;
+
 }
 nav {
   padding: 24px 162px;
   display: flex;
   margin: 0 auto;
   align-items: center;
-      justify-content: center;
+   justify-content: center;
 
   justify-content: space-between;
 }
@@ -35,3 +39,66 @@ color: rgba(255, 255, 255, 1);
   }
 }
 
+.hero {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;  
+  margin-left: 162px;
+  &__title {
+    font-family: Sora;
+    color: rgba(255, 255, 255, 1);
+font-weight: 600;
+font-style: SemiBold;
+font-size: 58px;
+line-height: 130%;
+letter-spacing: 0%;
+  }
+  &__left {
+    margin-top: 188px;
+  }
+ &__text {
+  display: inline;
+  font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+letter-spacing: 0%;
+color: $primary-color;
+ } 
+ &__text22 {
+  color: rgba(255, 255, 255, 1);
+  margin-top: 60px;
+ }
+
+ &__right img{
+  width: 603px;
+height: 570px;
+opacity: 1;
+margin-top: 77px;
+margin-left: 90px;
+margin-bottom: 172px;
+ }
+ &__btn {
+gap: 10px;
+margin-top: 20px;
+opacity: 1;
+padding: 18px 24px 18px 24px;
+border-radius: 56px;
+border: none;
+ }
+ &__btn2 {
+  background-color: rgba(26, 26, 26, 1);
+  border: 1px solid rgba(38, 38, 38, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: Sora;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 74px;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+padding: 18px 24px;
+ }
+}

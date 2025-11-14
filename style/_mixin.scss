@@ -1,0 +1,8 @@
+@mixin border-radius($radius) {
+    border-radius: 56px;
+}
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
