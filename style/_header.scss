@@ -24,7 +24,14 @@ nav {
   margin-left: 220px;
     list-style: none;
   }
-  
+  .nav__list-title a:hover {
+    border-radius: 24px;
+    display: flex;
+    transform: scale(2s);
+    padding: 16px 24px;
+    background-color: #1A1A1A;
+    border: 1px solid #262626;
+  }
   li a {
 text-decoration: none;
 font-family: Sora;
@@ -79,12 +86,23 @@ margin-left: 90px;
 margin-bottom: 172px;
  }
  &__btn {
+  font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+
 gap: 10px;
 margin-top: 20px;
 opacity: 1;
 padding: 18px 24px 18px 24px;
 border-radius: 56px;
 border: none;
+ }
+ &__btn:hover {
+  background-color: burlywood;
+  color: $secondary-color;
  }
  &__btn2 {
   background-color: rgba(26, 26, 26, 1);
@@ -100,6 +118,10 @@ font-size: 18px;
 line-height: 150%;
 letter-spacing: 0%;
 padding: 18px 24px;
+ }
+ &__btn2:hover {
+  background-color: burlywood;
+  color: $secondary-color;
  }
 
   .hero__text {
@@ -167,7 +189,6 @@ gap: 30px;
 border-radius: 20px;
 border-width: 1px;
 padding: 40px;
-
   display: flex;
 opacity: 1;
 gap: 30px;
@@ -177,6 +198,7 @@ align-items: center ;
 border-radius: 20px;
 border-width: 1px;
 padding: 40px 40px ;
+transition: all 0.4s ease-out;
 border: 1px solid #262626;
 img {
   width: 58px;
@@ -234,7 +256,13 @@ color: $secondary-color;
   align-items: center;
   justify-content: start;
 }
+&__card-text img:hover {
+  transform: scale(0.4s);
+  transform: rotate(180deg);
+  background-color: rgb(99, 61, 5);
 }
+}
+
 
 .answer {
   width: 1596px;
@@ -279,6 +307,7 @@ margin-left: 570px;
 border: 1px solid #262626;
 background: #1A1A1A;
 .search-input {
+  color: $secondary-color;
   padding-left: 30px;
   background-size: 16px 16px;
   font-family: Sora;
@@ -287,6 +316,10 @@ font-style: Regular;
 font-size: 18px;
 line-height: 100%;
 text-align: center;
+}
+&__ask-input input:active {
+  background-color: bisque;
+  color: aliceblue;
 }
 }
 }

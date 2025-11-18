@@ -103,10 +103,18 @@
   &__btn img {
     background-color: rgba(26, 26, 26, 1);
     gap: 10px;
-    // margin-left: 20px;
     opacity: 1;
     padding: 6px 14px;
     border-radius: 135px;
+  }
+  &__btn img:active{
+    background-color: goldenrod;
+    color: #0f0f0f;
+  }
+  &__btn:hover {
+    background-color: rgb(148, 95, 29);
+    color: $primary-color;
+
   }
 }
 .services {
