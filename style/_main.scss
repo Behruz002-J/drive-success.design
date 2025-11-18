@@ -26,7 +26,7 @@
     display: grid;
     margin-top: 80px;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 162px;
+    // margin-left: 162px;
   }
   &__card {
     width: 465px;
@@ -113,11 +113,11 @@
   width: 1598px;
   height: 1863px;
   opacity: 1;
-  margin: 150px auto;
+  margin: 0 auto;
   // border: 1px solid blue;
   &__part {
     display: grid;
-    margin-top: 80px;
+    // margin-top: 80px;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
@@ -154,7 +154,7 @@
     border-width: 1px;
     padding: 120px 80px 80px 80px;
     text-align: center;
-    background-image: url(../assets/images/Abstract\ Design.png);
+    background-image: url("../assets/images/Abstract\ Design.png");
     h3 {
       color: rgba(255, 255, 255, 1);
       font-family: Sora;
@@ -221,7 +221,7 @@ font-size: 18px;
 line-height: 150%;
 letter-spacing: 0%;
 text-align: center;
-margin-top: 20px;
+// margin-top: 20px;
     }
   }
  &__main {
@@ -256,6 +256,10 @@ border-radius: 20px;
   position: absolute;
   top: 160px;
   left: 300px;
+  transition: all 0.5s ease;
+}
+.logos img:hover {
+  transform: rotate(180deg) scale(2s);
 
 }
   button {
@@ -328,8 +332,8 @@ color: $secondary-color;
 
 }
 button {
-  width: 233p;
-height: 64;
+  width: 233px;
+height: 64px;
 opacity: 1;
 gap: 4px;
 border-radius: 74px;

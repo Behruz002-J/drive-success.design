@@ -16,16 +16,15 @@ nav {
   display: flex;
   margin: 0 auto;
   align-items: center;
-   justify-content: center;
-  // justify-content: space-between;
+   justify-content: center;  
 }
 .nav__list-title {
   display: flex;
   gap: 54px;
-  // justify-content: center;
-  margin-left: 700px;
+  margin-left: 220px;
     list-style: none;
   }
+  
   li a {
 text-decoration: none;
 font-family: Sora;
@@ -34,12 +33,11 @@ font-style: Regular;
 font-size: 18px;
 line-height: 100%;
 letter-spacing: 0%;
-
 color: rgba(255, 255, 255, 1);
   }
 
 .hero {
-  margin: 0 auto;
+  margin: 150px auto;
   justify-content: center;
   display: flex;  
   margin-left: 162px;
@@ -72,9 +70,10 @@ color: $primary-color;
  }
 
  &__right img{
-  width: 603px;
+  // width: 603px;
 height: 570px;
 opacity: 1;
+width: 100%;
 margin-top: 77px;
 margin-left: 90px;
 margin-bottom: 172px;
@@ -102,4 +101,192 @@ line-height: 150%;
 letter-spacing: 0%;
 padding: 18px 24px;
  }
+
+  .hero__text {
+    max-width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .hero__right img {
+    max-width: 640px;
+    padding: 30px 80px;
+height: 252px;
+opacity: 1;
+
+display: flex;
+align-items: center;
+  }
+ }
+
+.testimonials {
+  width: 1596px;
+  height: 651px;
+.container {
+  margin: 150px auto;
+}
+&__title {
+  h1 {
+    color: $secondary-color;
+    font-family: Sora;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 48px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+  }
+  p {
+    color: $primary-color;
+    font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 20px;
+  }
+}
+&__control {
+  display: flex;
+  width: 75%;
+  align-items: center;
+  margin: 81px auto;
+  gap: 30px;
+}
+&__card {
+  width: 510.75px;
+height: 417px;
+opacity: 1;
+}
+&__card-text  {
+  width: 510.75px;
+height: 303px;
+opacity: 1;
+gap: 30px;
+border-radius: 20px;
+border-width: 1px;
+padding: 40px;
+
+  display: flex;
+opacity: 1;
+gap: 30px;
+text-align: center;
+padding: 14px;
+align-items: center ;
+border-radius: 20px;
+border-width: 1px;
+padding: 40px 40px ;
+border: 1px solid #262626;
+img {
+  width: 58px;
+  height: 58px;
+opacity: 1;
+gap: 10px;
+border-radius: 8px;
+border-width: 1px;
+margin-bottom: 40px;
+padding: 14px;
+  padding: 14px 14px;
+  background: #1A1A1A;
+border: 1px solid #262626;
+}
+// &__profession {
+//   display: block;
+//   display: flex;
+//   justify-content: start;
+// }
+span {
+  color: $secondary-color;
+  font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+justify-content: start;
+display: block;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0px;
+}
+}
+
+&__worker3 {
+opacity: 1;
+gap: 21px;
+  display: flex;
+  padding: 14px;
+  align-items: center;
+}
+&__worker3 img {
+  width: 70px;
+height: 70px;
+opacity: 1;
+margin-top: 44px;
+align-items: center;
+border-radius: 100px;
+object-fit: cover;
+}
+&__names {
+color: $secondary-color;
+}
+&__profession {
+  color: $primary-color;
+  display: inline;
+  align-items: center;
+  justify-content: start;
+}
+}
+
+.answer {
+  width: 1596px;
+height: 283px;
+opacity: 1;
+gap: 50px;
+margin: 150px auto;
+&__title h2 {
+  color: $secondary-color;
+  font-family: Sora;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 48px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+span {
+  color: $primary-color;
+}
+}
+&__text {
+  color: $primary-color;
+  font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+justify-content: start;
+display: inline-block;
+padding: 20px 250px 50px 250px;
+}
+&__ask-input input {
+  width: 434px;
+height: 60px;
+opacity: 1;
+gap: 10px;
+padding: 18px 24px;
+border-radius: 48px;
+margin-left: 570px;
+border: 1px solid #262626;
+background: #1A1A1A;
+.search-input {
+  padding-left: 30px;
+  background-size: 16px 16px;
+  font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 100%;
+text-align: center;
+}
+}
 }
